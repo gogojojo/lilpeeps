@@ -24,18 +24,18 @@ var symbols = {
          {
             id:'Group',
             type:'group',
-            rect:['0','0','1280','800','auto','auto'],
+            rect:['0','0','100%','100%','auto','auto'],
             c:[
             {
                id:'Character',
                type:'image',
-               rect:['0','0','1280px','800px','auto','auto'],
+               rect:['0','0','100%','100%','auto','auto'],
                fill:["rgba(0,0,0,0)",im+"Wolverine-01.svg",'0px','0px']
             },
             {
                id:'Claws',
                type:'image',
-               rect:['0','0','1280px','800px','auto','auto'],
+               rect:['0','0','100%','100%','auto','auto'],
                fill:["rgba(0,0,0,0)",im+"Wolverine-02.svg",'0px','0px']
             }]
          }],
@@ -47,8 +47,8 @@ var symbols = {
       "Base State": {
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,255,255,1)'],
-            ["style", "width", '1280px'],
-            ["style", "height", '800%'],
+            ["style", "width", '90vw'],
+            ["style", "height", '90vh'],
             ["style", "overflow", 'hidden']
          ],
          "${_Claws}": [
@@ -95,6 +95,8 @@ Edge.registerCompositionDefn(compId, symbols, fonts, resources);
  * Adobe Edge DOM Ready Event Handler
  */
 $(window).ready(function() {
+   $('#d').click(function(){
      Edge.launchComposition(compId);
+  });
 });
 })(jQuery, AdobeEdge, "EDGE-226780666");
