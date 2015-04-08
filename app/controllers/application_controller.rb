@@ -6,4 +6,6 @@ class ApplicationController < ActionController::Base
   end
   def wolverine
   end
+  def miketyson
+  end
 end
