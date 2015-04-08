@@ -13,27 +13,3 @@
  *= require_tree .
  *= require_self
  */
-@-webkit-keyframes claws {
-  0% {opacity: 0}
-  40%  {opacity: 1; top:0;}
-  55% {top: -50px;}
-  70% {top: 0;}
-  85% {top: -30px;}
-  100% {top: 0;}
-}
-@-webkit-keyframes wolverine {
-  0% {top: 0}
-  40%  { top:0;}
-  55% {top: -50px;}
-  70% {top: 0;}
-  85% {top: -30px;}
-  100% {top: 0;}
-}
-.main #wolverineclaws {
-  -webkit-animation-name: claws;
-  -webkit-animation-duration: 5s;
-}
-.main #wolverine{
-  -webkit-animation-name: wolverine;
-  -webkit-animation-duration: 5s;
-}
