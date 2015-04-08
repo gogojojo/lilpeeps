@@ -10,4 +10,6 @@ class ApplicationController < ActionController::Base
   end
   def raiden
   end
+  def humantorch
+  end
 end

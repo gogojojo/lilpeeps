@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/wolverine' => 'application#wolverine' 
   get '/miketyson' => 'application#miketyson'
   get '/raiden' => 'application#raiden'
+  get '/humantorch' => 'application#humantorch'
 end
