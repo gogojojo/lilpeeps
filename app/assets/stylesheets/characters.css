@@ -52,3 +52,12 @@
   -webkit-animation-name: lightning;
   -webkit-animation-duration: 5s;
 }
+/* human torch */
+@-webkit-keyframes torch {
+  0% {opacity: 0;}
+  100% {opacity: 0.8;}
+}
+.main #humantorch {
+  -webkit-animation-name: torch;
+  -webkit-animation-duration: 5s;
+}
