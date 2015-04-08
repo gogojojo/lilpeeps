@@ -43,3 +43,12 @@
   -webkit-animation-name: love;
   -webkit-animation-duration: 6s;
 }
+/* raiden */
+@-webkit-keyframes lightning {
+  0% {opacity: 0; top: -200px;}
+  100% {opacity: 1; top: 0;}
+}
+.main #raidenlightning {
+  -webkit-animation-name: lightning;
+  -webkit-animation-duration: 5s;
+}
