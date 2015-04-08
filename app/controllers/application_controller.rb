@@ -8,4 +8,6 @@ class ApplicationController < ActionController::Base
   end
   def miketyson
   end
+  def raiden
+  end
 end
