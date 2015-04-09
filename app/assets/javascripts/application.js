@@ -14,4 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(function(){
+  $('button').click(function(){
+    $('svg').attr('class','');
+  })
+})
 

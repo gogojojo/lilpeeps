@@ -82,3 +82,6 @@
   -webkit-animation-name: spawn;
   -webkit-animation-duration: 6s;
 }
+.paused {
+  -webkit-animation-play-state: paused;
+}
