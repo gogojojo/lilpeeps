@@ -61,3 +61,24 @@
   -webkit-animation-name: torch;
   -webkit-animation-duration: 5s;
 }
+/* spawn */
+@-webkit-keyframes eyes {
+  0% { opacity: 0;}
+  40% {opacity: 1; -webkit-transform: scale(1);}
+  70% { -webkit-transform: scale(1.2);}
+  100% {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes spawn {
+  0%  {-webkit-transform: scale(1);}
+  40% {-webkit-transform: scale(1);}
+  70% { -webkit-transform: scale(1.2);}
+  100% {-webkit-transform: scale(1);}
+}
+.main #spawneyes {
+  -webkit-animation-name: eyes;
+  -webkit-animation-duration: 6s;
+}
+.main #spawn {
+  -webkit-animation-name: spawn;
+  -webkit-animation-duration: 6s;
+}

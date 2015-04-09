@@ -12,4 +12,6 @@ class ApplicationController < ActionController::Base
   end
   def humantorch
   end
+  def spawn
+  end
 end
