@@ -17,3 +17,22 @@ svg {
   width: 80vw;
   height: 80vh;
 }
+a {
+  position: relative;
+  :hover {
+    opacity: 0.4;
+  }
+}
+.title {
+  position: absolute;
+  line-height: 30vh;
+  text-align: center;
+  width: 20vw;
+  top: 0;
+  left: -1000px;
+  -webkit-transition: all 2s;
+  transition: all 1s;
+}
+a:hover .title{
+  left: 0px;
+}
