@@ -15,8 +15,11 @@
 //= require turbolinks
 //= require_tree .
 $(function(){
-  $('button').click(function(){
-    $('svg').attr('class','');
+  $('.about').click(function(){
+    $('.info').css("left","0");
+  })
+  $('.close').click(function(){
+    $('.info').css("left","-2000px")
   })
 })
 
