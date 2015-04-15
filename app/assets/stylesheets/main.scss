@@ -9,7 +9,7 @@ svg {
   position: absolute;
 }
 .icon {
-  width: 20vw;
+  width: 25vw;
   height: 35vh;
   display: inline-block;
   background-color: white;
@@ -26,20 +26,47 @@ a {
   position: absolute;
   line-height: 30vh;
   text-align: center;
-  width: 20vw;
+  width: 25vw;
   top: 0;
-  left: -1000px;
+  left: 0;
   -webkit-transition: all 2s;
   transition: all 1s;
-  font-size: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: 800;
   color: white;
   z-index: 999;
+  opacity: 0;
 }
-.icon:hover .title{
-  left: 0px;
+.left {
+  left: -1000px;
 }
-
+.middle {
+  top: -1000px;
+}
+.right {
+  left: 1000px;
+}
+.icon:hover {
+  opacity: 1;
+  .left {
+    left: 0;
+    opacity: 1;
+  }
+  .middle {
+    top: 0;
+    opacity: 1;
+  }
+  .right {
+    left: 0;
+    opacity: 1;
+  }
+  svg {
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+  }
+}
 #about{
   position: fixed;
   opacity: 1;
@@ -63,11 +90,19 @@ a {
   position: fixed;
   opacity: 1;
   z-index: 9999;
-  top: 12vh;
+  top: 14vh;
   left: 0;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 23px;
   background-color: dodgerblue;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 .back:hover {
   opacity: .8;
