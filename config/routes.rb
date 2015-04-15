@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/humantorch' => 'application#humantorch'
   get '/spawn' => 'application#spawn'
   get '/drogo' => 'application#drogo'
+  get '/flash' => 'application#flash'
 end
