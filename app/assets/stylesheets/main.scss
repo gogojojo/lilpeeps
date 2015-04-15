@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
  }
 div {
   position: relative;
@@ -9,8 +10,9 @@ svg {
 }
 .icon {
   width: 20vw;
-  height: 30vh;
+  height: 35vh;
   display: inline-block;
+  background-color: white;
 }
 
 .main {
@@ -19,9 +21,6 @@ svg {
 }
 a {
   position: relative;
-  :hover {
-    opacity: 0.4;
-  }
 }
 .title {
   position: absolute;
@@ -32,8 +31,12 @@ a {
   left: -1000px;
   -webkit-transition: all 2s;
   transition: all 1s;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  z-index: 999;
 }
-a:hover .title{
+.icon:hover .title{
   left: 0px;
 }
 
@@ -46,9 +49,15 @@ a:hover .title{
   text-align: center;
   padding: 10px 17px;
   background-color: dodgerblue;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
 }
 #about:hover {
-  opacity: .8;
+  opacity: 0.8;
+}
+.icon:hover {
+  background-color: black;
 }
 .back{
   position: fixed;
