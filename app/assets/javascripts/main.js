@@ -1,0 +1,10 @@
+$(function(){
+  $('.about').click(function(){
+    $('.info').css("left","0");
+    console.log('test');
+  })
+  $('.close').click(function(){
+    $('.info').css("left","-2000px");
+    console.log('test');
+  })
+})

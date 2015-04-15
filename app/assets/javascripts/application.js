@@ -14,12 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(function(){
-  $('.about').click(function(){
-    $('.info').css("left","0");
-  })
-  $('.close').click(function(){
-    $('.info').css("left","-2000px")
-  })
-})
+
 
