@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/raiden' => 'application#raiden'
   get '/humantorch' => 'application#humantorch'
   get '/spawn' => 'application#spawn'
+  get '/drogo' => 'application#drogo'
 end

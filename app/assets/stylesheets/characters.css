@@ -82,6 +82,26 @@
   -webkit-animation-name: spawn;
   -webkit-animation-duration: 6s;
 }
+/* Drogo */
+@-webkit-keyframes blood {
+  0% { opacity: 0;}
+  20% {opacity: 1; -webkit-transform: scale(1);}
+  40% { -webkit-transform: scale(1.2);}
+  50% {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes dead {
+  0% { opacity: 0;}
+  50% { opacity: 0;}
+  100% { opacity: 1;}
+}
+.main #drogoblood {
+  -webkit-animation-name: blood;
+  -webkit-animation-duration: 6s;
+}
+.main #drogodead {
+  -webkit-animation-name: dead;
+  -webkit-animation-duration: 6s;
+}
 .paused {
   -webkit-animation-play-state: paused;
 }
