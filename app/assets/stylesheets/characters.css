@@ -150,6 +150,32 @@
   -webkit-animation-name: flash;
   -webkit-animation-duration: 6s;
 }
+/* Akuma */
+@-webkit-keyframes akuma {
+  40% {opacity: 1; top: 0; left: 0;}
+  50% { top: -100px;}
+  60% { top: 0; left: 0;}
+  70% { left: -200px;}
+  90% { left: 200px;}
+  100% { left: 0;}
+}
+@-webkit-keyframes akumafire {
+  0% {opacity: 0}
+  40% {opacity: 1; top: 0; left: 0;}
+  50% { top: -100px;}
+  60% { top: 0; left: 0;}
+  70% { left: -200px;}
+  90% { left: 200px;}
+  100% { left: 0;}
+}
+.main #akumafire {
+  -webkit-animation-name: akumafire;
+  -webkit-animation-duration: 6s;
+}
+.main #akuma {
+  -webkit-animation-name: akuma;
+  -webkit-animation-duration: 6s;
+}
 .paused {
   -webkit-animation-play-state: paused;
 }

@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get '/spawn' => 'application#spawn'
   get '/drogo' => 'application#drogo'
   get '/flash' => 'application#flash'
+  get '/akuma' => 'application#akuma'
 end
