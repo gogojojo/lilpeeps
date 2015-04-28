@@ -176,6 +176,30 @@
   -webkit-animation-name: akuma;
   -webkit-animation-duration: 6s;
 }
+/* Manny */
+@-webkit-keyframes belt {
+  0% { top: -1000px;}
+  40% { top: 0px;}
+  50% { top: -150px;}
+  70% { top: 0px;}
+  90% { top: -200px;}
+  100% { top: 0px;}
+}
+@-webkit-keyframes manny {
+  40% { top: 0px;}
+  50% { top: -150px;}
+  70% { top: 0px;}
+  90% { top: -200px;}
+  100% { top: 0px;}
+}
+.main #mannybelt {
+  -webkit-animation-name: belt;
+  -webkit-animation-duration: 6s;
+}
+.main #manny {
+  -webkit-animation-name: manny;
+  -webkit-animation-duration: 6s;
+}
 .paused {
   -webkit-animation-play-state: paused;
 }
