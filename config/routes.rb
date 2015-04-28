@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/drogo' => 'application#drogo'
   get '/flash' => 'application#flash'
   get '/akuma' => 'application#akuma'
+  get '/manny' => 'application#manny'
 end

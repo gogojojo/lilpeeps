@@ -14,4 +14,6 @@ class ApplicationController < ActionController::Base
   end
   def spawn
   end
+  def manny 
+  end
 end
