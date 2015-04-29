@@ -18,4 +18,6 @@ class ApplicationController < ActionController::Base
   end
   def nightcrawler
   end
+  def ryu 
+  end
 end
