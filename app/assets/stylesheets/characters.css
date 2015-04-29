@@ -200,6 +200,29 @@
   -webkit-animation-name: manny;
   -webkit-animation-duration: 6s;
 }
+/* Nightcrawler */
+@-webkit-keyframes nightcrawler {
+  0% { opacity: 1;}
+  5% { opacity: 0;}
+  10% { opacity: 1; left: -270px;}
+  15% { opacity: 0; left: -270px;}
+  20% { opacity: 1; left: 500px;}
+  25% { opacity: 0; left: 500px;}
+  30% { opacity: 1; left: -500px;}
+  35% { opacity: 0;}
+  40% { opacity: 1; left: -600px;}
+  45% { opacity: 0;}
+  50% { opacity: 1; left: 6100px;}
+  55% { opacity: 0;}
+  95% {opacity: 0;}
+  100% { opacity: 1; left: 0px;}
+}
+
+.main #nightcrawler {
+  -webkit-animation-name: nightcrawler;
+  -webkit-animation-duration: 6s;
+  color: white;
+}
 .paused {
   -webkit-animation-play-state: paused;
 }
