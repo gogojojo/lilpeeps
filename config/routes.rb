@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get '/flash' => 'application#flash'
   get '/akuma' => 'application#akuma'
   get '/manny' => 'application#manny'
+  get '/nightcrawler' => 'application#nightcrawler'
 end

@@ -16,4 +16,6 @@ class ApplicationController < ActionController::Base
   end
   def manny 
   end
+  def nightcrawler
+  end
 end
