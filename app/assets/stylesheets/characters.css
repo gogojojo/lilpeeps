@@ -221,7 +221,34 @@
 .main #nightcrawler {
   -webkit-animation-name: nightcrawler;
   -webkit-animation-duration: 6s;
-  color: white;
+}
+/* Ryu */
+@-webkit-keyframes ryugloves {
+  0% { opacity: 0;}
+  10% {opacity: 1; -webkit-transform: scale(1);}
+  20% { -webkit-transform: scale(1.2);}
+  30% {-webkit-transform: scale(1); left: 0; top: 0;}
+  50% {left: -300px; top: -300px;}
+  60% {left: -300px; top: 0;}
+  80% {left: 300px; top: -300px;}
+  90% {left: 300px; top: 0;}
+  100% { left: 0; top: 0;}
+}
+@-webkit-keyframes ryu {
+  30% {left: 0; top: 0;}
+  50% {left: -300px; top: -300px;}
+  60% {left: -300px; top: 0;}
+  80% {left: 300px; top: -300px;}
+  90% {left: 300px; top: 0;}
+  100% { left: 0; top: 0;}
+}
+.main #ryugloves {
+  -webkit-animation-name: ryugloves;
+  -webkit-animation-duration: 6s;
+}
+.main #ryu {
+  -webkit-animation-name: ryu;
+  -webkit-animation-duration: 6s;
 }
 .paused {
   -webkit-animation-play-state: paused;
