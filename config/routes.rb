@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get '/manny' => 'application#manny'
   get '/nightcrawler' => 'application#nightcrawler'
   get '/ryu' => 'application#ryu'
+  get '/messi' => 'application#messi'
 end

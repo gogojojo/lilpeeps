@@ -20,4 +20,6 @@ class ApplicationController < ActionController::Base
   end
   def ryu 
   end
+  def messi
+  end
 end
